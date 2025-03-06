@@ -29,8 +29,6 @@ def get_github_activity(username):
             elif event_type == 'WatchEvent':
                 print(f"{date} - Starred {repo_name}")
             
-            # Adicione mais tipos de eventos conforme necessário
-            
     else:
         print(f"Failed to fetch data for user {username}. Status code: {response.status_code}")
 
